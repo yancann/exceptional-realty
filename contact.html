@@ -20,7 +20,21 @@
 
 	<!-- Contact Form -->
 
-	<form></form>	
+	<form action="#" method="post">
+	<label for="fullname">Name</label>		
+	<input type="text" id="fullname" name="fullname" placeholder="Your Name" required>
+	
+	<label for="email">E-mail</label>
+	<input type="text" id="email" name="email" placeholder="your@e-mail.com" required>
+
+	<label for="tel">Phone</label>
+	<input type="tel" id="phone" placeholder="Your Phone (optional)">
+
+	<label for="message">Message</label>
+	<textarea id="message" name="message" rows="10"></textarea>
+	<input type="submit" value="send">
+
+	</form>	
 
 </body>
 </html>
